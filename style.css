@@ -1,0 +1,16 @@
+body{
+    background-color: #333;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      min-height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+#copied-msg{
+    display: none;
+    color: lightgreen;
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+}
