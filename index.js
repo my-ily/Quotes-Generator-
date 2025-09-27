@@ -26,7 +26,7 @@ nextBtn.addEventListener("click", function(){
 
 
 document.querySelector("#copy").addEventListener("click", function () {
-    if(quoteText.length === 0) return ;
+    if(quoteText.length.trim()=== 0) return ;
     else{
     let fullText = quoteText.innerHTML + " — " + authorName.innerHTML;
 
